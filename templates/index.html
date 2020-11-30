@@ -2,18 +2,18 @@
 	<head>
 		<title>{{t}}</title>
 		<!-- href="/static/assets/style.css"-->
-		<link rel="stylesheet" type="text/css"  href="{{ url_for('static',filename='assets/style.css')}}" >
+		<link rel="stylesheet" type="text/css"  href="static/assets/style.css" >
 		<link rel="stylesheet" type="text/css"  href="{{ url_for('static',filename='assets/emoji.css')}}" >
 		<script src="{{ url_for('static',filename='assets/twemoji.min.js')}}"></script>  
 		<script src="{{ url_for('static',filename='assets/emoji.js')}}"></script>
 	</head>
 <body>
-	<h1>{{ h }}</h1>
 	<ul>
 		<li><a href="/list" class="{{ a1 }}">ALL</a></li>
 		<li><a href="/" class="{{ a2 }}">Uncompleted</a></li>
 		<li><a href="/completed" class="{{ a3 }}">Completed</a></li>
 	</ul>
+	<image src='static/images/ITS_desk.png' width='1425' height='800' />
 	<hr>
 	{% if todos[0] %}
 	<div span="right">

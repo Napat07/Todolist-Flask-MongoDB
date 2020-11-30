@@ -5,8 +5,7 @@ h1{
 body{
 	color:black;
 	background-color:white;
-	left-margin:10px;
-	right-margin:10px;
+	
 }
 table{
 	width:95%;
@@ -15,7 +14,7 @@ table{
 }
 td
 {
-	border: rgba(224, 119, 70, 1) 2px solid;
+	border: rgb(0, 0, 0) 2px solid;
 	word-wrap:break-word;
 }
 table#close{
@@ -68,7 +67,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #B546FF;
 }
 li {
     float: left;
@@ -81,7 +80,7 @@ li a {
     text-decoration: none;
 }
 a.active {
-    background-color: #4CAF50;
+    background-color: #B546FF;
 }
 /* Change the link color to #111 (black) on hover */
 li a:hover {

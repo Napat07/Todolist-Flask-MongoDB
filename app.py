@@ -4,8 +4,8 @@ from pymongo import MongoClient
 import os
 
 app = Flask(__name__)
-title = "TODO sample application with Flask and MongoDB"
-heading = "TODO Reminder with Flask and MongoDB"
+title = "ITS"
+heading = "ITS"
 
 client = MongoClient("mongodb://127.0.0.1:27017") #host uri
 db = client.ITSdb    #Select the database
